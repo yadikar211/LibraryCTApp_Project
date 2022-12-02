@@ -1,13 +1,12 @@
-package com.cydeo.pages;
+package com.SkyBlue.LibraryCT.pages;
 
-import com.cydeo.utility.Driver;
+import com.SkyBlue.LibraryCT.utility.Driver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class DashBoardPage extends BasePage
 {
-
 
     @FindBy(id = "borrowed_books")
     public WebElement borrowedBooksNumber;
@@ -17,8 +16,6 @@ public class DashBoardPage extends BasePage
 
     @FindBy(id = "book_count")
     public WebElement booksNumber;
-
-
 
 
     public String getModuleCount(String module){

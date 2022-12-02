@@ -1,7 +1,7 @@
-package com.cydeo.pages;
+package com.SkyBlue.LibraryCT.pages;
 
-import com.cydeo.utility.ConfigurationReader;
-import com.cydeo.utility.Driver;
+import com.SkyBlue.LibraryCT.utility.ConfigurationReader;
+import com.SkyBlue.LibraryCT.utility.Driver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -23,10 +23,9 @@ public class LoginPage {
     public WebElement loginButton;
 
 
-
     public void login(String userType){
 
-        String username=ConfigurationReader.getProperty(userType+"_username");
+        String username= ConfigurationReader.getProperty(userType+"_username");
         String password=ConfigurationReader.getProperty("password");
 
         emailBox.sendKeys(username);

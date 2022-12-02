@@ -1,6 +1,6 @@
-package com.cydeo.pages;
+package com.SkyBlue.LibraryCT.pages;
 
-import com.cydeo.utility.Driver;
+import com.SkyBlue.LibraryCT.utility.Driver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -21,7 +21,6 @@ public class BookPage extends BasePage {
     @FindBy(name = "name")
     public WebElement bookName;
 
-
     @FindBy(xpath = "(//input[@type='text'])[4]")
     public WebElement author;
 
@@ -36,13 +35,9 @@ public class BookPage extends BasePage {
     public WebElement description;
 
 
-
     public WebElement editBook(String book) {
         String xpath = "//td[3][.='" + book + "']/../td/a";
         return Driver.getDriver().findElement(By.xpath(xpath));
     }
-
-
-
 
 }

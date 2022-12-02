@@ -1,4 +1,4 @@
-package com.cydeo.runner;
+package com.SkyBlue.LibraryCT.runner;
 
 
 import io.cucumber.junit.Cucumber;
@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "@target/rerun.txt",
-        glue = "com/cydeo/steps"
+        glue = "com/SkyBlue/LibraryCT/steps"
 
 )
 public class FailedTestRunner {
