@@ -17,15 +17,15 @@ public class Us03_StepDefs_Mayira {
     List<String> actualBookCategories;
     List<String> expectedBookCategories;
 
-    @Given("the {string} on the home page")
-    public void the_on_the_home_page(String userType) {
-        new LoginPage().login(userType);
-    }
-
-    @When("the user navigates to {string} page")
-    public void the_user_navigates_to_page(String module) {
-        bookPage.navigateModule(module);
-    }
+//    @Given("the {string} on the home page")
+//    public void the_on_the_home_page(String userType) {
+//        new LoginPage().login(userType);
+//    }
+//
+//    @When("the user navigates to {string} page")
+//    public void the_user_navigates_to_page(String module) {
+//        bookPage.navigateModule(module);
+//    }
 
     @When("the user clicks book categories")
     public void the_user_clicks_book_categories() {
