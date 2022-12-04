@@ -44,4 +44,10 @@ import org.openqa.selenium.support.PageFactory;
         public void navigateModule(String moduleName){
             Driver.getDriver().findElement(By.xpath("//span[@class='title'][.='"+moduleName+"']")).click();
         }
+
+        public void topModules(String module){
+            String locator = "//a[@href='#books']//span[.='"+module+"']";
+            Driver.getDriver().findElement(By.xpath(locator)).click();
+        }
+
     }
