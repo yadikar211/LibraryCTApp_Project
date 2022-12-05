@@ -16,12 +16,7 @@ public class Yadikar_StepDefs {
     DashBoardPage dashBoardPage=new DashBoardPage();
     String actualBookNum;
 
-    @Given("the {string} on the home page")
-    public void the_on_the_home_page(String string) {
-        BrowserUtil.waitFor(1);
-    loginPage.login(string);
 
-    }
     @When("the librarian gets borrowed books number")
     public void the_librarian_gets_borrowed_books_number() {
         actualBookNum = dashBoardPage.borrowedBooksNumber.getText();
