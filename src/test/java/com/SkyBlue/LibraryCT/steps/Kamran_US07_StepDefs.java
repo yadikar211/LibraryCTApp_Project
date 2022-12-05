@@ -25,15 +25,15 @@ public class Kamran_US07_StepDefs {
     BookPage bookPage = new BookPage();
     KA_US07_Page ka_us07_page = new KA_US07_Page();
 
-    @Given("the {string} on the home page")
-    public void the_on_the_home_page(String username) {
-        loginPage.login(username);
-    }
+//    @Given("the {string} on the home page")
+//    public void the_on_the_home_page(String username) {
+//        loginPage.login(username);
+//    }
 
-    @And("the user navigates to {string} page")
-    public void theUserNavigatesToPage(String arg0) {
-        bookPage.navigateModule(arg0);
-    }
+//    @And("the user navigates to {string} page")
+//    public void theUserNavigatesToPage(String arg0) {
+//        bookPage.navigateModule(arg0);
+//    }
     String bookNameFromReq;
 
     @And("the user searches for {string} book")
