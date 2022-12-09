@@ -23,19 +23,10 @@ public class US4_Guliru {
     BookPage bookPage = new BookPage();
     String bookName;
 
-    @Given("I login as a librarian")
-    public void i_login_as_a_librarian() {
-        login.login("librarian");
-        BrowserUtil.waitFor(3);
-
-    }
-    @Given("I navigate to {string} page")
-    public void i_navigate_to_page(String book) {
-        new DashBoardPage().navigateModule(book);
 
 
 
-    }
+
 
             @When("I open book {string}")
     public void i_open_book(String bookName) {
