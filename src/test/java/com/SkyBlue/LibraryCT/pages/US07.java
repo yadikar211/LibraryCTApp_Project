@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 
 import java.util.List;
 
-public class KA_US07_Page extends BasePage {
+public class US07 extends BasePage {
 
 
 //    @FindBy(xpath = "//tbody//td[2]")

@@ -6,7 +6,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 
-public class AsiyeUs05_StepDefs {
+public class US05 {
     String actualGenre;
 
 

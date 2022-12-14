@@ -1,17 +1,15 @@
 package com.SkyBlue.LibraryCT.steps;
 
 import com.SkyBlue.LibraryCT.pages.BookPage;
-import com.SkyBlue.LibraryCT.pages.LoginPage;
 import com.SkyBlue.LibraryCT.utility.BrowserUtil;
 import com.SkyBlue.LibraryCT.utility.DB_Util;
-import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 
 import java.util.List;
 
-public class Us03_StepDefs_Mayira {
+public class US03 {
 
     BookPage bookPage = new BookPage();
     List<String> actualBookCategories;

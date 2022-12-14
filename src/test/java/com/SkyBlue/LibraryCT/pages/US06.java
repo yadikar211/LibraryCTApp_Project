@@ -8,9 +8,9 @@ import org.openqa.selenium.support.PageFactory;
 
 import java.util.List;
 
-public class Anaris_US6_Page {
+public class US06 {
 
-    public Anaris_US6_Page(){
+    public US06(){
         PageFactory.initElements(Driver.getDriver(),this);
     }
 

@@ -1,11 +1,8 @@
 package com.SkyBlue.LibraryCT.steps;
 
-import com.SkyBlue.LibraryCT.pages.Anaris_US6_Page;
-import com.SkyBlue.LibraryCT.pages.BasePage;
 import com.SkyBlue.LibraryCT.pages.BookPage;
 import com.SkyBlue.LibraryCT.pages.LoginPage;
 import com.SkyBlue.LibraryCT.utility.BrowserUtil;
-import com.SkyBlue.LibraryCT.utility.ConfigurationReader;
 import com.SkyBlue.LibraryCT.utility.DB_Util;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -13,12 +10,13 @@ import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.support.ui.Select;
 
-public class anaris_US6_StepDefs {
+public class US06 {
 
     BookPage bookPage = new BookPage();
     LoginPage loginPage = new LoginPage();
 
-    Anaris_US6_Page anaris_us6_page = new Anaris_US6_Page();
+
+    com.SkyBlue.LibraryCT.pages.US06 anaris_us6_page = new com.SkyBlue.LibraryCT.pages.US06();
     @Given("the {string} on the home page")
     public void the_on_the_home_page(String username) {
 

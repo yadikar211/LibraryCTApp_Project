@@ -1,29 +1,23 @@
 package com.SkyBlue.LibraryCT.steps;
 
 import com.SkyBlue.LibraryCT.pages.BookPage;
-import com.SkyBlue.LibraryCT.pages.KA_US07_Page;
 import com.SkyBlue.LibraryCT.pages.LoginPage;
 import com.SkyBlue.LibraryCT.utility.BrowserUtil;
-import com.SkyBlue.LibraryCT.utility.ConfigurationReader;
 import com.SkyBlue.LibraryCT.utility.DB_Util;
-import com.SkyBlue.LibraryCT.utility.Driver;
 import io.cucumber.java.en.*;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
 
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
-public class Kamran_US07_StepDefs {
+public class US07 {
 
 
     LoginPage loginPage = new LoginPage();
     BookPage bookPage = new BookPage();
-    KA_US07_Page ka_us07_page = new KA_US07_Page();
+    com.SkyBlue.LibraryCT.pages.US07 ka_us07_page = new com.SkyBlue.LibraryCT.pages.US07();
 
 //    @Given("the {string} on the home page")
 //    public void the_on_the_home_page(String username) {

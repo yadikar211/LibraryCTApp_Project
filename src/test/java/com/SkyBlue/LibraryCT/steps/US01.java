@@ -7,7 +7,7 @@ import org.junit.Assert;
 
 import java.util.List;
 
-public class US1_Farag_stepDefs {
+public class US01 {
 
 
     //   Scenario: verify users has unique IDs ////////////////////////////////////////////////////////////////////////

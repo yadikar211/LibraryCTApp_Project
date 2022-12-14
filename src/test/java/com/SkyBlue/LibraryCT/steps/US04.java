@@ -1,13 +1,9 @@
 package com.SkyBlue.LibraryCT.steps;
 
-import com.SkyBlue.LibraryCT.pages.BasePage;
 import com.SkyBlue.LibraryCT.pages.BookPage;
 import com.SkyBlue.LibraryCT.utility.DB_Util;
-import com.SkyBlue.LibraryCT.pages.DashBoardPage;
 import com.SkyBlue.LibraryCT.pages.LoginPage;
 import com.SkyBlue.LibraryCT.utility.BrowserUtil;
-import com.SkyBlue.LibraryCT.utility.DB_Util;
-import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
@@ -16,7 +12,7 @@ import java.util.Map;
 
 
 
-public class US4_Guliru {
+public class US04 {
 
 
     LoginPage login = new LoginPage();
